@@ -37,14 +37,6 @@ extension ItemListView: UITableViewDelegate, UITableViewDataSource{
             return true
         }
         
-        
-//        let varientArray = category.
-//        let varientArray = categoriesArray.map({$0.id == selectedID})
-//        let varientArray = categoriesArray[indexPath.section].products![indexPath.row].variants
-//        let headerText = categoriesArray[indexPath.section].products![indexPath.row].name
-        
-//        cell.updateCellData(header: headerText!, varients: varientArray)
-        
         return cell
     }
     
@@ -53,8 +45,9 @@ extension ItemListView: UITableViewDelegate, UITableViewDataSource{
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 30))
         
         label.text = rankingArray[section].ranking
+        label.textColor = .white
         view.addSubview(label)
-        view.backgroundColor = UIColor.gray
+        view.backgroundColor = .gray
         
         return view
     }

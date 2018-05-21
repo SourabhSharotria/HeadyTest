@@ -53,6 +53,4 @@ class ItemListView: UIView {
             self.itemsTableView.reloadData()
         }
     }
-    
-    
 }
