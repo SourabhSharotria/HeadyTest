@@ -1,2 +1,3 @@
-# HeadyTest
-Machine Test
+# MVC-Demo
+
+Perfect use of generics within protocols by associatedtype
